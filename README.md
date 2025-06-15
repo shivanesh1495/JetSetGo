@@ -1,6 +1,6 @@
 # JetSetGo ✈️
 
-![Project Banner](public/banner.jpg) <!-- Replace with your actual banner image path -->
+![Project Banner](public/banner.png) <!-- Replace with your actual banner image path -->
 
 An immersive 3D travel experience built with React, Three.js, and Vite. JetSetGo showcases stunning destinations with smooth animations and interactive elements.
 
