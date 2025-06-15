@@ -1,0 +1,34 @@
+.next-button {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 10px 10px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.next-button:hover {
+  transform: scale(1.05);
+}
+
+.next-button .label {
+  margin-right: 10px;
+}
+
+.next-button .circle {
+  background: #1dd3c7;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.next.next-button:hover {
+  background-color: #f0f0f0;
+}
