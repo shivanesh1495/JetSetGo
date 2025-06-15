@@ -25,7 +25,7 @@ function makeRollingTextBG() {
   actx.lineJoin = 'round';
   actx.lineWidth = 20;
   actx.strokeStyle = '#fff';
-  const TEXT = 'REGAIN AIR TRAVEL';
+  const TEXT = 'JET SET GO';
   const grad = actx.createLinearGradient(0, 0, W, 0);
   grad.addColorStop(0.00, '#b625ff');
   grad.addColorStop(0.50, '#0078ff');
