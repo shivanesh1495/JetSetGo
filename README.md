@@ -1,12 +1,52 @@
-# React + Vite
+# JetSetGo ✈️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project Banner](public/banner.jpg) <!-- Replace with your actual banner image path -->
 
-Currently, two official plugins are available:
+An immersive 3D travel experience built with React, Three.js, and Vite. JetSetGo showcases stunning destinations with smooth animations and interactive elements.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 🌍 Interactive 3D travel destination cards
+- ✨ Smooth animations and transitions
+- 🎨 Custom shaders and post-processing effects
+- 📱 Fully responsive design
+- ⚡ Optimized performance with Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+## Project Structure
+
+jetsetgo/
+├── public/               # Static assets
+│   ├── images/           # Destination images
+│   └── env/              # Environment maps
+├── src/
+│   ├── components/       # React components
+│   ├── utils/            # Utility functions
+│   ├── App.jsx           # Main application
+│   └── main.jsx          # Entry point
+├── vite.config.js        # Vite configuration
+└── package.json
+
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/jetsetgo.git
+
+# Navigate to project directory
+cd jetsetgo
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+
